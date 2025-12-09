@@ -1,1 +1,9 @@
 # Python dependencies
+praw
+pymongo
+python-dotenv
+google-api-python-client
+instaloader
+google_play_scraper
+snscrape
+tqdm
