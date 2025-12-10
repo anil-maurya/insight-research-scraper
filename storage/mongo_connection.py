@@ -17,7 +17,7 @@ def get_db():
         _client = MongoClient(MONGO_URI)
     return _client[DB_NAME]
 
-def insert_raw(documents):
+def insert_raw(documents):  
     """
     documents: list of dicts
     """

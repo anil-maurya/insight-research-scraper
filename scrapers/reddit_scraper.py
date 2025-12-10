@@ -1,5 +1,7 @@
 # Reddit scraper implementation
 
+
+
 """
 Usage:
   python reddit_scraper.py --subreddits numerology,astrology --limit 50
@@ -15,7 +17,7 @@ import hashlib
 from datetime import datetime
 from praw import Reddit
 from pymongo.errors import DuplicateKeyError
-from mongo_connection import insert_raw
+from storage.mongo_connection import insert_raw
 from dotenv import load_dotenv
 from tqdm import tqdm
 
